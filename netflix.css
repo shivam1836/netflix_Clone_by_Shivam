@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#SHIVAM {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: rgb(45, 45, 45);
+}
+.A--1 {
+  height: 700px;
+  width: 100vw;
+  background-size: cover;
+}
+img[alt="back"] {
+  position: absolute;
+  height: 700px;
+  width: 100vw;
+  opacity: 50%;
+}
+.A--3 {
+  background: black;
+  height: 580px;
+  width: 100vw;
+  display: flex;
+}
+.A--4 {
+  background: black;
+  height: 580px;
+  width: 100vw;
+  display: flex;
+}
+.A--5 {
+  background: black;
+  display: flex;
+  height: 580px;
+  width: 100vw;
+}
+.A--6 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: black;
+  row-gap: 4px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  color: rgb(179, 179, 179);
+  gap: 20px;
+  font-size: 15px;
+  background-color: black;
+}
+.A--1 .A--11 {
+  height: 8%;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  opacity: 1;
+  position: relative;
+}
+img[alt="logo"] {
+  height: 50px;
+  width: 160px;
+  margin-top: 5%;
+}
+#lang {
+  height: 30px;
+  width: 120px;
+  margin-top: 15px;
+  right: 20%;
+  background-color: black;
+  color: rgb(231, 226, 226);
+  border: solid rgb(231, 226, 226);
+}
+#right {
+  width: 90%;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  justify-content: end;
+}
+#Button1 {
+  height: 30px;
+  width: 80px;
+  margin-top: 15px;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(221, 7, 7);
+}
+.A--1 .A--12 {
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  position: relative;
+}
+#A--121,
+#A--122,
+#A--123,
+#A--124,
+#A--211,
+#A--321,
+#A--411,
+#A--521 {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#A--121 {
+  font-size: 50px;
+}
+#A--124 {
+  font-size: 20px;
+}
+input {
+  font-size: 20px;
+  height: 50px;
+  width: 350px;
+  color: white;
+  margin: 5px;
+  border-radius: 6px;
+  background-color: black;
+}
+#Button2 {
+  height: 50px;
+  width: 200px;
+  margin-top: 15px;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(221, 7, 7);
+}
+#EmailInput {
+  height: 30px;
+  width: 200px;
+}
+.A--2 {
+  height: 580px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+}
+.A--2 .A--21 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 10%;
+}
+.A--2 .A--22 {
+  width: 40%;
+}
+#A--211,
+#A--212,
+#A--213 {
+  display: flex;
+  justify-content: start;
+}
+#A--211,
+#A--321,
+#A--411,
+#A--521 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+#A--212,
+#A--213,
+#A--322,
+#A--323,
+#A--412,
+#A--413,
+#A--522,
+#A--523,
+#A--524 {
+  color: white;
+  font-size: 28px;
+}
+img[alt="tv"] {
+  height: 570px;
+  width: 40vw;
+}
+#v1 {
+  margin-top: 20px;
+  margin-left: 85px;
+  position: absolute;
+  height: 420px;
+  width: 480px;
+}
+#I1 {
+  position: relative;
+}
+.A--3 .A--31 {
+  margin-left: 10%;
+  border: solid;
+  width: 40%;
+  background: url(./netflix\ 3back.jpg);
+  background-size: 600px 500px;
+}
+.A--3 .A--32 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+#A--311 {
+  border: solid white;
+  height: 90px;
+  width: 300px;
+  display: flex;
+  margin-top: 60%;
+  margin-left: 24%;
+  border-radius: 20px;
+  background-color: black;
+  gap: 10px;
+}
+#A--312 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+img[alt="S1"] {
+  margin-left: 3%;
+  border-radius: 10px;
+}
+img[alt="S2"] {
+  border-radius: 10px;
+}
+#A--313 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+#A--314 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 170, 255);
+}
+.A--4 .A--41 {
+  border: solid;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 10%;
+}
+.A--4 .A--42 {
+  margin-top: 3%;
+  border: solid;
+  width: 40%;
+}
+#v2 {
+  margin-top: 35px;
+  margin-left: 120px;
+  position: absolute;
+  height: 250px;
+  width: 400px;
+}
+#I2 {
+  position: relative;
+}
+.A--5 .A--51 {
+  margin-left: 10%;
+  border: solid;
+  width: 40%;
+
+  background: url(./netflixkids.png) no-repeat;
+  background-size: 600px 500px;
+}
+.A--5 .A--52 {
+  width: 40%;
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.A--62 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  row-gap: 2px;
+}
+.A--62 #hidden {
+  background-color: #414141;
+  display: none;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 25px;
+  width: 100%;
+}
+.A--62:hover #hidden {
+  display: flex;
+  flex-direction: column;
+}
+.A--62 #shown {
+  font-size: 30px;
+  background-color: #414141;
+  color: white;
+}
+#shown {
+  display: flex;
+  justify-content: space-between;
+}
+#inner {
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-right: 3%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#outer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-right: 3%;
+  margin-bottom: 2%;
+}
+.A--62:hover #shown span {
+  transform: rotate(-45deg);
+}
+#last {
+  color: white;
+  font-size: 20px;
+}
+#A--61 {
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.AAA {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#BBB {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+footer a {
+  color: rgb(179, 179, 179);
+}
+footer #A {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(179, 179, 179);
+  margin-left: 10%;
+  gap: 20px;
+  font-size: 15px;
+  background-color: black;
+}
+@media screen and (min-width:0px) and (max-width:1270px) {
+.A--1 .A--11,.A--1 .A--12{
+    width:90%;
+  }
+}
